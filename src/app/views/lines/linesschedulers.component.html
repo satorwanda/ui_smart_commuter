@@ -1,0 +1,197 @@
+<div class="row">
+
+    <div class="col-md-12 mb-4">
+        <!-- Nav tabs -->
+        <tabset>
+          <tab>
+            <ng-template tabHeading><i class="icon-note"></i> Set Line Scheduler </ng-template>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="card">
+                      <div class="card-header">
+                        <strong>New line scheduler </strong>
+                      </div>
+                      <div class="card-body">
+                        <form action="" method="post" class="form-horizontal">
+                            <div class="form-group row">
+                                <label class="col-md-2 col-form-label" for="line-id">Line</label>
+                                <div class="col-md-4">
+                                    <select id="station-status" name="lineID" class="form-control">
+                                        <option value="" disabled>--Select line--</option>
+                                        <option value="">Line name</option>    
+                                    </select>
+                                </div>
+                                  <label class="col-md-2 col-form-label" for="line-price">Interval</label>
+                                  <div class="col-md-4">
+                                  <select id="dep-time" name="DepTime" class="form-control">
+                                    <option value="" disabled>--Select departure interval--</option>
+                                    <option value="10">10 mins</option>   
+                                    <option value="15">15 mins</option>   
+                                    <option value="20">20 mins</option>   
+                                    <option value="25">25 mins</option>   
+                                    <option value="30">30 mins</option>   
+                                    <option value="35">35 mins</option>   
+                                    <option value="40">40 mins</option>   
+                                    <option value="45">45 mins</option>   
+                                    <option value="50">50 mins</option>   
+                                    <option value="55">55 mins</option>   
+                                    <option value="60">1 hour</option>   
+                                    <option value="90">1h30min</option>   
+                                    <option value="120">2hours</option>   
+                                </select>
+                                </div>
+                              </div>
+                            <div class="form-group row">
+                            
+                            <label class="col-md-2 col-form-label" for="Start-time">Start Time</label>
+                            <div class="col-md-2">
+                                    <select id="start-time" name="StartTime" class="form-control">
+                                            <option value="" disabled>--Select time--</option>
+                                            
+                                            <option value="1:00">1:00</option>
+                                            <option value="1:30">1:30</option>
+                                            <option value="2:00">2:00</option>
+                                            <option value="2:30">2:30</option>
+                                            <option value="3:00">3:00</option>
+                                            <option value="3:30">3:30</option>
+                                            <option value="4:00">4:00</option>
+                                            <option value="4:30">4:30</option>
+                                            <option value="5:00">5:00</option>
+                                            <option value="5:30">5:30</option>
+                                            <option value="6:00">6:00</option>
+                                            <option value="6:30">6:30</option>
+                                            <option value="7:00">7:00</option>
+                                            <option value="7:30">7:30</option>
+                                            <option value="8:00">8:00</option>
+                                            <option value="8:30">8:30</option>
+                                            <option value="9:00">9:00</option>
+                                            <option value="9:30">9:30</option>
+                                            <option value="10:00">10:00</option>
+                                            <option value="10:30">10:30</option>
+                                            <option value="11:00">11:00</option>
+                                            <option value="11:30">11:30</option>
+                                            <option value="12:00">12:00</option>
+                                            <option value="12:30">12:30</option>
+                                            <option value="00:00">00:00</option>
+                                            <option value="00:30">00:30</option>
+                                            
+                                            
+                                        </select>
+                            </div>
+                            <div class="col-md-2">
+                                <select id="dep-TU" name="TU" class="form-control">
+                                        <option value="AM">AM</option>
+                                        <option value="PM">PM</option>
+                                        
+                                        
+                                    </select>
+                        </div>
+                        <label class="col-md-2 col-form-label" for="End-time">Start Time</label>
+                            <div class="col-md-2">
+                                    <select id="start-time" name="EndTime" class="form-control">
+                                            <option value="" disabled>--Select time--</option>
+                                            
+                                            <option value="1:00">1:00</option>
+                                            <option value="1:30">1:30</option>
+                                            <option value="2:00">2:00</option>
+                                            <option value="2:30">2:30</option>
+                                            <option value="3:00">3:00</option>
+                                            <option value="3:30">3:30</option>
+                                            <option value="4:00">4:00</option>
+                                            <option value="4:30">4:30</option>
+                                            <option value="5:00">5:00</option>
+                                            <option value="5:30">5:30</option>
+                                            <option value="6:00">6:00</option>
+                                            <option value="6:30">6:30</option>
+                                            <option value="7:00">7:00</option>
+                                            <option value="7:30">7:30</option>
+                                            <option value="8:00">8:00</option>
+                                            <option value="8:30">8:30</option>
+                                            <option value="9:00">9:00</option>
+                                            <option value="9:30">9:30</option>
+                                            <option value="10:00">10:00</option>
+                                            <option value="10:30">10:30</option>
+                                            <option value="11:00">11:00</option>
+                                            <option value="11:30">11:30</option>
+                                            <option value="12:00">12:00</option>
+                                            <option value="12:30">12:30</option>
+                                            <option value="00:00">00:00</option>
+                                            <option value="00:30">00:30</option>
+                                            
+                                            
+                                        </select>
+                            </div>
+                            <div class="col-md-2">
+                                <select id="dep-TU" name="TU" class="form-control">
+                                        <option value="AM">AM</option>
+                                        <option value="PM">PM</option>
+                                        
+                                        
+                                    </select>
+                        </div>
+                          </div>
+                
+                          
+                        </form>
+                      </div>
+                      <div class="card-footer">
+                        <button type="submit" class="btn btn-sm btn-primary"><i class="fa fa-dot-circle-o"></i> Submit</button>
+                        <button type="reset" class="btn btn-sm btn-danger"><i class="fa fa-ban"></i> Reset</button>
+                      </div>
+                    </div>
+                
+                </div>
+                </div>
+          </tab>
+          <tab>
+            <ng-template tabHeading><i class="fa fa-clock-o"></i> Line schedulers </ng-template>
+            <div class="row">
+                <div class="col-lg-12">
+                  <div class="card">
+                    <div class="card-header">
+                      <i class="fa fa-institution"></i> All lines and schedulers
+                    </div>
+                    <div class="card-body">
+                      <table class="table table-bordered table-striped table-sm">
+                        <thead>
+                          <tr>
+                            <th>No</th>
+                            <th>Line</th>
+                            <th>Departure interval</th>
+                            <th>Start Hour</th>
+                            <th>End Hour</th>
+                            <th colspan="2">Modify</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td style="text-align:center"><i class="fa fa-pencil"></i></td>
+                            <td style="text-align:center"><i class="fa fa-trash"></i></td>
+                          </tr>
+                        </tbody>
+                      </table>
+                      <nav>
+                        <ul class="pagination">
+                          <li class="page-item"><a class="page-link" href="#">Prev</a></li>
+                          <li class="page-item active">
+                            <a class="page-link" href="#">1</a>
+                          </li>
+                          <li class="page-item"><a class="page-link" href="#">2</a></li>
+                          <li class="page-item"><a class="page-link" href="#">3</a></li>
+                          <li class="page-item"><a class="page-link" href="#">4</a></li>
+                          <li class="page-item"><a class="page-link" href="#">Next</a></li>
+                        </ul>
+                      </nav>
+                    </div>
+                  </div>
+                </div>
+                <!--/.col-->
+              </div></tab>
+        </tabset>
+      </div>
+</div>

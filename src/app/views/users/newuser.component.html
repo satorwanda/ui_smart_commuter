@@ -1,0 +1,74 @@
+<div class="row">
+    <div class="col-md-12">
+        <div class="card">
+          <div class="card-header">
+            <strong>NEW USER REGISTRATION </strong>
+          </div>
+          <div class="card-body">
+            <form action="" method="post" class="form-horizontal">
+                <div class="form-group row">
+                    <label class="col-md-2 col-form-label" for="user-fname">Firstname</label>
+                    <div class="col-md-4">
+                      <input type="text" id="user-fname" name="Ufname" class="form-control" placeholder="User's firstname" autocomplete="user-fname">
+                      </div>
+                      <label class="col-md-2 col-form-label" for="driver-lname">Lastname</label>
+                      <div class="col-md-4">
+                        <input type="text" id="user-lname" name="Ulname" class="form-control" placeholder="User's lastname" autocomplete="user-lname">
+                    </div>
+                  </div>
+                <div class="form-group row">
+                <label class="col-md-2 col-form-label" for="user-id">ID Number</label>
+                <div class="col-md-4">
+                    <input type="number" id="user-ID" name="UID" class="form-control" placeholder="User's ID Number" autocomplete="user-ID">
+                </div>
+                <label class="col-md-2 col-form-label" for="bus-type">Location</label>
+                <div class="col-md-4">
+                        <select id="user-location" name="ULoc" class="form-control">
+                                <option value="" disabled>--Select station--</option>
+                                <option value="">Station name</option>
+                                
+                                
+                            </select>
+                </div>
+              </div>
+              <div class="form-group row">
+                <label class="col-md-2 col-form-label" for="user-phone">Phone number</label>
+                <div class="col-md-4">
+                  <input type="number" id="user-phone" name="Uphone" class="form-control" placeholder="User's phone number" autocomplete="user-phone">
+                  </div>
+                  <label class="col-md-2 col-form-label" for="driver-address">Address</label>
+                  <div class="col-md-4">
+                    <textarea id="textarea-input" name="Uaddress" rows="9" class="form-control" placeholder="User's address"></textarea>
+                </div>
+              </div>
+
+              <div class="form-group row">
+                    <label class="col-md-2 col-form-label" for="user-type">User type</label>
+                    <div class="col-md-4">
+                            <select id="user-type" name="Utype" class="form-control">
+                                    <option value="" disabled>--Select type--</option>
+                                    <option value="MANAGER">Manager</option>
+                                    <option value="AGENT">Agent</option>
+                                    <option value="CHARROI">Charroi</option>
+                                </select>
+                    </div>
+                        <label class="col-md-2 col-form-label" for="user-status">User status</label>
+                        <div class="col-md-4">
+                                <select id="user-status" name="Ustatus" class="form-control">
+                                        <option value="" disabled>--Select status--</option>
+                                        <option value="1">Active</option>
+                                        <option value="0">Desactive</option>
+                                        
+                                    </select>
+                        </div>
+                      </div>
+
+            </form>
+          </div>
+          <div class="card-footer">
+            <button type="submit" class="btn btn-sm btn-primary"><i class="fa fa-dot-circle-o"></i> Submit</button>
+            <button type="reset" class="btn btn-sm btn-danger"><i class="fa fa-ban"></i> Reset</button>
+          </div>
+        </div>
+    
+    </div>

@@ -1,0 +1,112 @@
+<div class="animated fadeIn">
+  <div class="row">
+    <div class="col-sm-6 col-lg-3">
+      <div class="card text-white bg-primary">
+        <div class="card-body pb-0">
+          <div class="btn-group float-right" dropdown>
+            <button type="button" class="btn btn-transparent dropdown-toggle p-0" dropdownToggle>
+              <i class="icon-settings"></i>
+            </button>
+            <div class="dropdown-menu dropdown-menu-right" *dropdownMenu>
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </div>
+          <div class="text-value">0</div>
+          <div>Buses</div>
+        </div>
+        <div class="chart-wrapper mt-3 mx-3" style="height:70px;">
+         
+        </div>
+      </div>
+    </div><!--/.col-->
+    <div class="col-sm-6 col-lg-3">
+        <div class="card text-white bg-info">
+          <div class="card-body pb-0">
+            <div class="btn-group float-right" dropdown>
+              <button type="button" class="btn btn-transparent dropdown-toggle p-0" dropdownToggle>
+                <i class="icon-settings"></i>
+              </button>
+              <div class="dropdown-menu dropdown-menu-right" *dropdownMenu>
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </div>
+            <div class="text-value">0</div>
+            <div>Bus stations</div>
+          </div>
+          <div class="chart-wrapper mt-3 mx-3" style="height:70px;">
+           
+          </div>
+        </div>
+      </div><!--/.col-->
+    <div class="col-sm-6 col-lg-3">
+      <div class="card text-white bg-warning">
+        <div class="card-body pb-0">
+          <div class="btn-group float-right" dropdown>
+            <button type="button" class="btn btn-transparent dropdown-toggle p-0" dropdownToggle>
+              <i class="icon-settings"></i>
+            </button>
+            <div class="dropdown-menu dropdown-menu-right" *dropdownMenu>
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </div>
+          <div class="text-value">0</div>
+          <div>Lines</div>
+        </div>
+        <div class="chart-wrapper mt-3" style="height:70px;">
+            <div class="dropdown-menu dropdown-menu-right" *dropdownMenu>
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+        </div>
+      </div>
+    </div><!--/.col-->
+    <div class="col-sm-6 col-lg-3">
+      <div class="card text-white bg-danger">
+        <div class="card-body pb-0">
+          <div class="btn-group float-right" dropdown>
+            <button type="button" class="btn btn-transparent dropdown-toggle p-0" dropdownToggle>
+              <i class="icon-settings"></i>
+            </button>
+            <div class="dropdown-menu dropdown-menu-right" *dropdownMenu>
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </div>
+          <div class="text-value">0</div>
+          <div>Drivers</div>
+        </div>
+        <div class="chart-wrapper mt-3 mx-3" style="height:70px;">
+          
+        </div>
+      </div>
+    </div><!--/.col-->
+  </div><!--/.row-->
+  <div class="card">
+    <div class="card-body">
+      <div class="row">
+        <div class="col-sm-5">
+          <h4 class="card-title mb-0">Statistics</h4>
+          <div class="small text-muted">December 2018</div>
+        </div><!--/.col-->
+        <div class="col-sm-7 d-none d-md-block">
+          <button type="button" class="btn btn-primary float-right"><i class="icon-cloud-download"></i></button>
+          <div class="btn-group btn-group-toggle float-right mr-3" data-toggle="buttons">
+            <label class="btn btn-outline-secondary" [(ngModel)]="radioModel" btnRadio="Day" id="option1">Day</label>
+            <label class="btn btn-outline-secondary" [(ngModel)]="radioModel" btnRadio="Week" id="option2">Week</label>
+            <label class="btn btn-outline-secondary" [(ngModel)]="radioModel" btnRadio="Month" id="option3">Month</label>
+          </div>
+        </div><!--/.col-->
+      </div><!--/.row-->
+ 
+
+</div>

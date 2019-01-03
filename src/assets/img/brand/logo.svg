@@ -1,0 +1,15 @@
+<svg width="707.1" height="200" xmlns="http://www.w3.org/2000/svg">
+
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="402" width="582" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <polygon id="svg_6" points="85.5999984741211,101 -1,51 -1,151 " fill-opacity="0"/>
+  <g id="svg_9"/>
+  <text stroke="#FFFFFF" transform="rotate(0.6524381637573242 49.6232986450206,97.84839630126953) matrix(5.7317769124743485,0,0,5.83490477932321,-479.670473912156,-374.0039450704233) " xml:space="preserve" text-anchor="start" font-family="'Trebuchet MS', Gadget, sans-serif" font-size="24" id="svg_20" y="89.4375" x="86.050003" fill-opacity="null" stroke-opacity="null" stroke-width="0" fill="#000000"/>
+  <text stroke="#FFFFFF" transform="matrix(0.949471890926361,0,0,1,118.15395283233373,3) " font-style="normal" font-weight="bold" xml:space="preserve" text-anchor="start" font-family="'Trebuchet MS', Gadget, sans-serif" font-size="140" id="svg_21" y="148.532739" x="-39.078668" stroke-opacity="null" stroke-width="0" fill="#000000">-Ticketing</text>
+  <text xml:space="preserve" text-anchor="start" font-family="'Trebuchet MS', Gadget, sans-serif" font-size="150" id="svg_23" y="159.464268" x="-0.259433" stroke-opacity="null" stroke-width="0" stroke="null" fill="#9b0303">E</text>
+ </g>
+</svg>

@@ -1,0 +1,109 @@
+<div class="row">
+
+    <div class="col-md-12 mb-4">
+        <!-- Nav tabs -->
+        <tabset>
+          <tab>
+            <ng-template tabHeading><i class="icon-note"></i> New Line </ng-template>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="card">
+                      <div class="card-header">
+                        <strong>ADD NEW LINE </strong>
+                      </div>
+                      <div class="card-body">
+                        <form action="" method="post" class="form-horizontal">
+                            <div class="form-group row">
+                                <label class="col-md-2 col-form-label" for="line-from">From</label>
+                                <div class="col-md-4">
+                                    <select id="station-status" name="lineFrom" class="form-control">
+                                        <option value="" disabled>--From station--</option>
+                                        <option value="">Station name</option>    
+                                    </select>
+                                </div>
+                                  <label class="col-md-2 col-form-label" for="line-to">To</label>
+                                  <div class="col-md-4">
+                                    <select id="station-status" name="lineTo" class="form-control">
+                                        <option value="" disabled>--To station--</option>
+                                        <option value="">Station name</option>    
+                                    </select></div>
+                              </div>
+                            <div class="form-group row">
+                            <label class="col-md-2 col-form-label" for="line-name">Name</label>
+                            <div class="col-md-4">
+                                <input type="text" id="line-name" name="LineName" class="form-control" placeholder="Name of the line" autocomplete="line-name">
+                            </div>
+                            <label class="col-md-2 col-form-label" for="bus-type">Status</label>
+                            <div class="col-md-4">
+                                    <select id="station-status" name="StationStatus" class="form-control">
+                                            <option value="" disabled>--Select station status--</option>
+                                            <option value="1">Active</option>
+                                            <option value="0">Inactive</option>
+                                            
+                                            
+                                        </select>
+                            </div>
+                          </div>
+                
+                          
+                        </form>
+                      </div>
+                      <div class="card-footer">
+                        <button type="submit" class="btn btn-sm btn-primary"><i class="fa fa-dot-circle-o"></i> Submit</button>
+                        <button type="reset" class="btn btn-sm btn-danger"><i class="fa fa-ban"></i> Reset</button>
+                      </div>
+                    </div>
+                
+                </div>
+                </div>
+          </tab>
+          <tab>
+            <ng-template tabHeading><i class="fa fa-road"></i> Registered Lines </ng-template>
+            <div class="row">
+                <div class="col-lg-12">
+                  <div class="card">
+                    <div class="card-header">
+                      <i class="fa fa-institution"></i> All lines
+                    </div>
+                    <div class="card-body">
+                      <table class="table table-bordered table-striped table-sm">
+                        <thead>
+                          <tr>
+                            <th>No</th>
+                            <th>Line</th>
+                            <th>Line name</th>
+                            <th>Status</th>
+                            <th colspan="2">Modify</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td style="text-align:center"><i class="fa fa-pencil"></i></td>
+                            <td style="text-align:center"><i class="fa fa-trash"></i></td>
+                          </tr>
+                        </tbody>
+                      </table>
+                      <nav>
+                        <ul class="pagination">
+                          <li class="page-item"><a class="page-link" href="#">Prev</a></li>
+                          <li class="page-item active">
+                            <a class="page-link" href="#">1</a>
+                          </li>
+                          <li class="page-item"><a class="page-link" href="#">2</a></li>
+                          <li class="page-item"><a class="page-link" href="#">3</a></li>
+                          <li class="page-item"><a class="page-link" href="#">4</a></li>
+                          <li class="page-item"><a class="page-link" href="#">Next</a></li>
+                        </ul>
+                      </nav>
+                    </div>
+                  </div>
+                </div>
+                <!--/.col-->
+              </div></tab>
+        </tabset>
+      </div>
+</div>
